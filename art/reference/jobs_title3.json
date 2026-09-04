@@ -1,0 +1,8 @@
+[
+ {
+  "out": "title_art2.png",
+  "model": "gemini-3-pro-image",
+  "aspect": "16:9",
+  "prompt": "A BACKGROUND PLATE for a game title screen — an EMPTY ENVIRONMENT with NOTHING in it. THE MOST IMPORTANT REQUIREMENT: absolutely NO text, NO lettering, NO words, NO logos, NO kanji, NO signs with readable writing, and NO people, NO characters, NO figures, NO creatures, NO silhouettes of anyone. The game engine draws its own logo and menu on top of this image — any lettering or figure in the art collides with them. If you feel the urge to add a character or a title: do not. Empty scene only.\n\nTHE SCENE: a rain-slick cyberpunk city street at night seen straight-on, in the style of the Cyberpunk Edgerunners anime — deep indigo and black buildings, sparse neon in cyan and magenta far in the distance, faint green digital haze drifting like aurora. Dominating the middle distance stands ONE giant weathered red torii gate, half-swallowed by the city, its paint peeling, cables sagging from its crossbeam. Wisps of low cloud cross in front of it. A huge pale moon hangs high.\n\nCOMPOSITION FOR OVERLAYS: the LEFT THIRD of the frame is the darkest and emptiest — deep shadow, almost featureless (a logo will sit there). The RIGHT 40% is calm and low-contrast below the horizon line (a menu column sits there). The visual interest — torii, moon, neon smear — lives in the middle band and upper area.\n\nSTYLE: painted pixel-art-adjacent, crisp edges, moody, cinematic. Dark overall — nothing brighter than the moon. 16:9."
+ }
+]

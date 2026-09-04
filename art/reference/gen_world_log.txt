@@ -1,0 +1,26 @@
+saved D:\Projects\Cybershinigami\art\reference\enemy_worm_sheet.png
+[enemy_drone_sheet.png] HTTP 503 on gemini-3-pro-image: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[enemy_drone_sheet.png] retrying on gemini-2.5-flash-image
+saved D:\Projects\Cybershinigami\art\reference\enemy_drone_sheet.png
+[enemy_husk_sheet.png] HTTP 503 on gemini-3-pro-image: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[enemy_husk_sheet.png] retrying on gemini-2.5-flash-image
+saved D:\Projects\Cybershinigami\art\reference\enemy_husk_sheet.png
+saved D:\Projects\Cybershinigami\art\reference\boss_bruteforce.png
+saved D:\Projects\Cybershinigami\art\reference\bg_far.png
+saved D:\Projects\Cybershinigami\art\reference\bg_mid.png
+saved D:\Projects\Cybershinigami\art\reference\tileset.png
+saved D:\Projects\Cybershinigami\art\reference\title_art.png

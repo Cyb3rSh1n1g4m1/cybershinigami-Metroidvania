@@ -1,0 +1,9 @@
+[
+ {
+  "out": "sheet_mega.png",
+  "model": "gemini-3-pro-image",
+  "aspect": "16:9",
+  "refs": ["sheet_mega.png"],
+  "prompt": "Recreate the attached sprite sheet EXACTLY — same 6x5 grid, same poses, same character, same colours, same pixel-art style, same grey cell backgrounds — with exactly TWO corrections and NOTHING else changed:\n\nCORRECTION 1 — ROW 1 (the top row, six standing idle poses). In the attached image these six figures are MISSING the large white sleeveless haori coat that the character wears in every other row. Redraw all six ROW 1 cells with the SAME big white sleeveless haori draped over his shoulders, hanging open past his knees, exactly as it appears in rows 2, 3, 4 and 5. He NEVER takes the haori off. Every one of the 30 cells must show the white haori.\n\nCORRECTION 2 — ROW 5, CELL 5 (bottom row, fifth cell). The lying-down death pose is crushed against the bottom edge of the cell and partly cut off. Redraw it fully INSIDE the cell: the whole body lying flat, complete and uncropped, with empty space around it — and still wearing the white haori.\n\nDo NOT change any other cell. Do NOT change the grid, the layout, the proportions, the palette, the outfit details, the red hannya mask, or the blue-to-cyan banded ponytail. This is a copy job with two fixes, not a new drawing."
+ }
+]

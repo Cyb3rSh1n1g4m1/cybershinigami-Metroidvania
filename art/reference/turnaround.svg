@@ -1,0 +1,340 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1200" width="1440" height="1200" font-family="Consolas, monospace">
+<defs>
+  <linearGradient id="hairlong" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%"   stop-color="#1E33D9"/><stop offset="28%" stop-color="#1E33D9"/>
+    <stop offset="28%"  stop-color="#2B6FE8"/><stop offset="62%" stop-color="#2B6FE8"/>
+    <stop offset="62%"  stop-color="#35C6F4"/><stop offset="88%" stop-color="#35C6F4"/>
+    <stop offset="88%"  stop-color="#8FE8FF"/>
+  </linearGradient>
+  <radialGradient id="ghost">
+    <stop offset="0%"  stop-color="#8FE8FF" stop-opacity=".85"/>
+    <stop offset="45%" stop-color="#35C6F4" stop-opacity=".38"/>
+    <stop offset="100%" stop-color="#35C6F4" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="ghostsm">
+    <stop offset="0%"  stop-color="#FFFFFF" stop-opacity=".95"/>
+    <stop offset="50%" stop-color="#8FE8FF" stop-opacity=".5"/>
+    <stop offset="100%" stop-color="#35C6F4" stop-opacity="0"/>
+  </radialGradient>
+
+  <!-- ================= SIDE VIEW (faces right) — becomes the sprite -->
+  <g id="side">
+    <ellipse cx="2" cy="32" rx="56" ry="60" fill="url(#ghost)"/>
+    <path d="M -14,14 C -46,26 -70,70 -76,140 C -81,205 -72,268 -54,322 L -28,314
+             C -46,262 -54,204 -50,146 C -46,92 -30,52 -4,30 Z" fill="url(#hairlong)"/>
+    <path d="M -10,16 l 14,-6 4,12 -14,6 Z" fill="#C6F02A"/>
+    <path d="M -4,-8 C 16,-8 28,6 29,26 L 30,48 C 30,60 24,66 14,68 L -14,68
+             C -24,66 -30,58 -30,46 L -29,26 C -28,6 -20,-8 -4,-8 Z" fill="#1E33D9"/>
+    <!-- full-face mask, profile -->
+    <path d="M -12,26 C -12,6 -2,-2 8,0 C 21,3 27,16 28,30 L 32,42 L 24,47
+             L 25,58 C 25,67 16,72 5,71 C -6,70 -12,62 -12,50 Z" fill="#E01F26"/>
+    <path d="M -12,26 C -12,10 -3,2 7,4 C 18,7 24,18 25,30" fill="none" stroke="#8F1116" stroke-width="2"/>
+    <path d="M -12,26 L -12,50 C -12,62 -6,70 5,71" fill="none" stroke="#8FE8FF" stroke-width="2.5" opacity=".9"/>
+    <ellipse cx="14" cy="30" rx="14" ry="9" fill="url(#ghostsm)"/>
+    <path d="M 3,26 L 21,30 L 21,35 L 3,32 Z" fill="#FFFFFF"/>
+    <ellipse cx="10" cy="58" rx="15" ry="8" fill="url(#ghostsm)"/>
+    <path d="M -6,54 L 22,56 L 20,63 L -5,62 Z" fill="#0A0E1F"/>
+    <path d="M -6,54 l 5,7 4,-7 M 8,55 l 5,7 4,-7 M 18,56 l 3,6 2,-6" fill="#FFFFFF"/>
+    <path d="M 6,8 L 11,15 L 6,22 L 1,15 Z" fill="#35C6F4"/>
+    <path d="M -6,4 C -22,-2 -38,-16 -48,-40 L -40,-44 C -30,-24 -18,-12 -2,-6 Z" fill="#E01F26"/>
+    <path d="M -12,0 C -24,-6 -34,-18 -42,-36" fill="none" stroke="#8F1116" stroke-width="2.5"/>
+    <path d="M 4,2 C -8,-6 -18,-22 -22,-44 L -15,-46 C -10,-26 -2,-12 8,-6 Z" fill="#E01F26" opacity=".92"/>
+
+    <!-- neck: skin -->
+    <path d="M -8,62 L 10,62 L 10,80 L -8,80 Z" fill="#5E3620"/>
+    <path d="M -14,66 L 12,66 L 14,86 L -14,86 Z" fill="#0A0E1F" stroke="#C6F02A" stroke-width="1.4"/>
+    <path d="M -14,82 C -4,76 10,76 18,82 L 20,134 L 18,180 L -14,180 L -16,134 Z" fill="#0A0E1F"/>
+    <path d="M 12,80 L 14,178" stroke="#4A5568" stroke-width="1.6"/>
+    <!-- sleeve pushed to the elbow, then bare forearm + hand -->
+    <path d="M 14,86 L 24,124 L 12,128 L 6,90 Z" fill="#0A0E1F"/>
+    <path d="M 19,92 L 22,120" stroke="#C6F02A" stroke-width="2.2"/>
+    <path d="M 14,92 L 16,122" stroke="#35C6F4" stroke-width="2.2"/>
+    <path d="M 11,120 L 25,120 L 25,130 L 11,130 Z" fill="#1E33D9"/>
+    <path d="M 13,128 L 24,128 L 22,164 L 12,164 Z" fill="#855434"/>
+    <path d="M 22,130 L 20,162" stroke="#B07A4A" stroke-width="2.5"/>
+    <path d="M 11,162 L 24,162 L 25,180 C 25,186 20,189 16,188 L 11,184 Z" fill="#855434"/>
+    <path d="M 11,162 L 12,184" stroke="#4A2A1A" stroke-width="2"/>
+
+    <!-- sleeveless captain haori, ragged hem -->
+    <path d="M -18,80 C -10,72 6,72 14,78 L 20,96 L 8,100 L 6,84 L -12,84 L -14,100 L -26,94 Z"
+          fill="#FFFFFF" stroke="#4A5568" stroke-width="1.2"/>
+    <path d="M -26,92 L -44,150 L -42,206 L -38,246
+             l 6,20 l 5,-22 l 7,24 l 6,-22 l 6,22 l 6,-24 l 5,20
+             L 14,230 L 16,150 L 20,96 L 6,102 L 4,160 L 2,226 L -22,230 L -24,150 L -14,100 Z"
+          fill="#FFFFFF" stroke="#4A5568" stroke-width="1.2"/>
+    <path d="M -30,120 L -28,240 M -22,110 L -22,236" stroke="#4A5568" stroke-width="1" opacity=".55"/>
+
+    <path d="M -16,174 L 20,174 L 20,198 L -16,198 Z" fill="#1E33D9"/>
+    <path d="M -16,184 L 20,184" stroke="#C6F02A" stroke-width="2"/>
+    <path d="M -12,180 L -82,202 L -84,192 L -14,172 Z" fill="#000000" stroke="#C6F02A" stroke-width="1.6"/>
+    <circle cx="-12" cy="178" r="6" fill="#4A5568"/>
+    <path d="M -10,192 L -64,210 L -67,201 L -12,184 Z" fill="#000000" stroke="#C6F02A" stroke-width="1.4"/>
+    <circle cx="-10" cy="190" r="5" fill="#4A5568"/>
+
+    <path d="M -16,194 L -24,268 L -16,340 L -14,376 L 6,376 L 6,338 L 8,268 L 4,194 Z" fill="#0A0E1F"/>
+    <path d="M 4,194 L 10,268 L 18,340 L 20,376 L 38,376 L 32,338 L 26,268 L 20,194 Z" fill="#000000"/>
+    <path d="M -21,214 L -15,372" stroke="#C6F02A" stroke-width="2.4"/>
+    <path d="M -15,214 L -9,372" stroke="#35C6F4" stroke-width="2.4"/>
+    <path d="M 26,214 L 34,372" stroke="#C6F02A" stroke-width="2.4" opacity=".65"/>
+    <path d="M -16,374 L 8,374 L 8,388 L -16,388 Z" fill="#1E33D9"/>
+    <path d="M 19,374 L 39,374 L 39,388 L 19,388 Z" fill="#1E33D9"/>
+    <path d="M -16,386 L -16,410 L 14,410 L 14,400 L 4,386 Z" fill="#000000" stroke="#8FE8FF" stroke-width="1.4"/>
+    <path d="M 19,386 L 19,410 L 48,410 L 48,400 L 37,386 Z" fill="#000000" stroke="#8FE8FF" stroke-width="1.4"/>
+  </g>
+
+  <!-- ================= FRONT VIEW -->
+  <g id="front">
+    <ellipse cx="0" cy="32" rx="56" ry="60" fill="url(#ghost)"/>
+    <path d="M -18,16 C -46,40 -56,110 -52,180 C -49,236 -40,286 -26,326 L -6,320
+             C -20,278 -28,230 -29,178 C -30,116 -20,62 -4,32 Z" fill="url(#hairlong)"/>
+    <path d="M 0,-8 C 19,-8 29,7 29,28 L 29,48 C 29,60 21,66 12,68 L -12,68
+             C -21,66 -29,60 -29,48 L -29,28 C -29,7 -19,-8 0,-8 Z" fill="#1E33D9"/>
+    <path d="M 0,2 C 16,2 23,14 23,32 L 23,50 C 23,64 13,72 0,72 C -13,72 -23,64 -23,50
+             L -23,32 C -23,14 -16,2 0,2 Z" fill="#E01F26"/>
+    <path d="M -19,30 C -16,16 -8,8 0,8 C 8,8 16,16 19,30" fill="none" stroke="#8F1116" stroke-width="2"/>
+    <path d="M -23,44 C -23,60 -13,70 0,70 C 13,70 23,60 23,44" fill="none" stroke="#8FE8FF" stroke-width="2.5" opacity=".85"/>
+    <ellipse cx="-12" cy="31" rx="13" ry="9" fill="url(#ghostsm)"/>
+    <ellipse cx="12" cy="31" rx="13" ry="9" fill="url(#ghostsm)"/>
+    <path d="M -20,27 L -5,32 L -5,36 L -20,32 Z" fill="#FFFFFF"/>
+    <path d="M 20,27 L 5,32 L 5,36 L 20,32 Z" fill="#FFFFFF"/>
+    <ellipse cx="0" cy="56" rx="20" ry="10" fill="url(#ghostsm)"/>
+    <path d="M -16,50 L 16,50 L 12,62 L -12,62 Z" fill="#0A0E1F"/>
+    <path d="M -16,50 l 5,8 4,-8 M -3,50 l 5,8 4,-8 M 9,50 l 4,7 3,-7" fill="#FFFFFF"/>
+    <path d="M 0,9 L 5,17 L 0,25 L -5,17 Z" fill="#35C6F4"/>
+    <path d="M -20,12 C -32,4 -42,-12 -47,-34 L -39,-37 C -33,-16 -25,-4 -14,3 Z" fill="#E01F26"/>
+    <path d="M 20,12 C 32,4 42,-12 47,-34 L 39,-37 C 33,-16 25,-4 14,3 Z" fill="#E01F26"/>
+    <path d="M -22,6 C -30,-4 -37,-16 -41,-30" fill="none" stroke="#8F1116" stroke-width="2.5"/>
+    <path d="M 22,6 C 30,-4 37,-16 41,-30" fill="none" stroke="#8F1116" stroke-width="2.5"/>
+
+    <path d="M -9,64 L 9,64 L 9,82 L -9,82 Z" fill="#5E3620"/>
+    <path d="M -14,66 L 14,66 L 16,88 L -16,88 Z" fill="#0A0E1F" stroke="#C6F02A" stroke-width="1.4"/>
+    <path d="M -24,84 C -16,77 16,77 24,84 L 22,136 L 20,180 L -20,180 L -22,136 Z" fill="#0A0E1F"/>
+    <path d="M 0,80 L 0,178" stroke="#4A5568" stroke-width="1.6"/>
+    <!-- sleeves to the elbow -->
+    <path d="M -24,86 L -34,124 L -22,128 L -16,90 Z" fill="#0A0E1F"/>
+    <path d="M 24,86 L 34,124 L 22,128 L 16,90 Z" fill="#0A0E1F"/>
+    <path d="M -30,96 L -29,120" stroke="#C6F02A" stroke-width="2.2"/>
+    <path d="M -25,96 L -24,120" stroke="#35C6F4" stroke-width="2.2"/>
+    <path d="M 30,96 L 29,120" stroke="#C6F02A" stroke-width="2.2"/>
+    <path d="M 25,96 L 24,120" stroke="#35C6F4" stroke-width="2.2"/>
+    <path d="M -34,120 L -21,120 L -21,130 L -34,130 Z" fill="#1E33D9"/>
+    <path d="M 34,120 L 21,120 L 21,130 L 34,130 Z" fill="#1E33D9"/>
+    <!-- bare forearms + hands -->
+    <path d="M -33,128 L -22,128 L -24,166 L -34,166 Z" fill="#855434"/>
+    <path d="M 33,128 L 22,128 L 24,166 L 34,166 Z" fill="#855434"/>
+    <path d="M -25,130 L -26,164" stroke="#B07A4A" stroke-width="2.5"/>
+    <path d="M 25,130 L 26,164" stroke="#B07A4A" stroke-width="2.5"/>
+    <path d="M -34,164 L -23,164 L -22,184 C -22,190 -28,193 -32,191 L -35,186 Z" fill="#855434"/>
+    <path d="M 34,164 L 23,164 L 22,184 C 22,190 28,193 32,191 L 35,186 Z" fill="#855434"/>
+    <path d="M -35,166 L -34,188 M 35,166 L 34,188" stroke="#4A2A1A" stroke-width="2"/>
+
+    <path d="M -26,80 C -14,72 14,72 26,80 L 30,98 L 16,102 L 14,86 L -14,86 L -16,102 L -30,98 Z"
+          fill="#FFFFFF" stroke="#4A5568" stroke-width="1.2"/>
+    <path d="M -30,96 L -48,152 L -46,208 L -42,248
+             l 6,20 l 6,-22 l 7,24 l 6,-22 l 6,20 L -13,232 L -14,152 L -16,102 Z"
+          fill="#FFFFFF" stroke="#4A5568" stroke-width="1.2"/>
+    <path d="M 30,96 L 48,152 L 46,208 L 42,248
+             l -6,20 l -6,-22 l -7,24 l -6,-22 l -6,20 L 13,232 L 14,152 L 16,102 Z"
+          fill="#FFFFFF" stroke="#4A5568" stroke-width="1.2"/>
+
+    <path d="M -22,174 L 22,174 L 22,198 L -22,198 Z" fill="#1E33D9"/>
+    <path d="M -22,184 L 22,184" stroke="#C6F02A" stroke-width="2"/>
+    <path d="M 20,178 L 64,230 L 57,237 L 15,184 Z" fill="#000000" stroke="#C6F02A" stroke-width="1.5"/>
+    <circle cx="19" cy="179" r="5.5" fill="#4A5568"/>
+    <path d="M 22,190 L 52,224 L 46,230 L 17,196 Z" fill="#000000" stroke="#C6F02A" stroke-width="1.3"/>
+    <circle cx="21" cy="191" r="4.5" fill="#4A5568"/>
+
+    <path d="M -22,194 L -28,268 L -22,340 L -20,376 L -3,376 L -4,338 L -2,268 L -1,194 Z" fill="#0A0E1F"/>
+    <path d="M 1,194 L 2,268 L 4,338 L 3,376 L 20,376 L 22,340 L 28,268 L 22,194 Z" fill="#0A0E1F"/>
+    <path d="M -25,214 L -19,372" stroke="#C6F02A" stroke-width="2.4"/>
+    <path d="M -19,214 L -13,372" stroke="#35C6F4" stroke-width="2.4"/>
+    <path d="M 25,214 L 19,372" stroke="#C6F02A" stroke-width="2.4"/>
+    <path d="M 19,214 L 13,372" stroke="#35C6F4" stroke-width="2.4"/>
+    <path d="M -21,374 L -3,374 L -3,388 L -21,388 Z" fill="#1E33D9"/>
+    <path d="M 21,374 L 3,374 L 3,388 L 21,388 Z" fill="#1E33D9"/>
+    <path d="M -21,386 L -21,410 L -2,410 L -2,386 Z" fill="#000000" stroke="#8FE8FF" stroke-width="1.4"/>
+    <path d="M 2,386 L 2,410 L 21,410 L 21,386 Z" fill="#000000" stroke="#8FE8FF" stroke-width="1.4"/>
+  </g>
+
+  <!-- ================= BACK VIEW -->
+  <g id="back">
+    <ellipse cx="0" cy="32" rx="50" ry="54" fill="url(#ghost)" opacity=".55"/>
+    <path d="M 0,-8 C 19,-8 29,7 29,28 L 29,52 C 29,66 20,74 0,74 C -20,74 -29,66 -29,52
+             L -29,28 C -29,7 -19,-8 0,-8 Z" fill="#1E33D9"/>
+    <path d="M -20,12 C -32,4 -42,-12 -47,-34 L -39,-37 C -33,-16 -25,-4 -14,3 Z" fill="#8F1116"/>
+    <path d="M 20,12 C 32,4 42,-12 47,-34 L 39,-37 C 33,-16 25,-4 14,3 Z" fill="#8F1116"/>
+    <path d="M -11,30 L 11,30 L 15,120 L 12,240 L 6,320 L -6,320 L -12,240 L -15,120 Z" fill="url(#hairlong)"/>
+    <path d="M -12,26 L 12,26 L 13,40 L -13,40 Z" fill="#C6F02A"/>
+    <path d="M -14,68 L 14,68 L 16,88 L -16,88 Z" fill="#0A0E1F"/>
+    <path d="M -24,84 C -16,77 16,77 24,84 L 22,136 L 20,180 L -20,180 L -22,136 Z" fill="#0A0E1F"/>
+    <path d="M -24,86 L -34,124 L -22,128 L -16,90 Z" fill="#0A0E1F"/>
+    <path d="M 24,86 L 34,124 L 22,128 L 16,90 Z" fill="#0A0E1F"/>
+    <path d="M -30,96 L -29,120" stroke="#C6F02A" stroke-width="2.2"/>
+    <path d="M 30,96 L 29,120" stroke="#C6F02A" stroke-width="2.2"/>
+    <path d="M -34,120 L -21,120 L -21,130 L -34,130 Z" fill="#1E33D9"/>
+    <path d="M 34,120 L 21,120 L 21,130 L 34,130 Z" fill="#1E33D9"/>
+    <path d="M -33,128 L -22,128 L -25,180 C -25,187 -32,189 -35,185 Z" fill="#855434"/>
+    <path d="M 33,128 L 22,128 L 25,180 C 25,187 32,189 35,185 Z" fill="#855434"/>
+
+    <path d="M -26,80 C -14,72 14,72 26,80 L 34,150 L 32,214 L 30,250
+             l -6,22 l -6,-24 l -6,24 l -6,-22 l -6,24 l -6,-24 l -6,22 l -6,-24 l -6,22
+             L -34,214 L -32,150 Z" fill="#FFFFFF" stroke="#4A5568" stroke-width="1.2"/>
+    <text x="0" y="150" fill="#0A0E1F" font-size="26" font-weight="bold" text-anchor="middle" font-family="Consolas, monospace">0x0029</text>
+    <text x="0" y="186" fill="#E01F26" font-size="30" font-weight="bold" text-anchor="middle">死神</text>
+
+    <path d="M -22,254 L -28,268 L -22,340 L -20,376 L -3,376 L -4,338 L -2,268 L -1,254 Z" fill="#0A0E1F"/>
+    <path d="M 1,254 L 2,268 L 4,338 L 3,376 L 20,376 L 22,340 L 28,268 L 22,254 Z" fill="#0A0E1F"/>
+    <path d="M -25,262 L -19,372" stroke="#C6F02A" stroke-width="2.4"/>
+    <path d="M 25,262 L 19,372" stroke="#C6F02A" stroke-width="2.4"/>
+    <path d="M -21,374 L -3,374 L -3,388 L -21,388 Z" fill="#1E33D9"/>
+    <path d="M 21,374 L 3,374 L 3,388 L 21,388 Z" fill="#1E33D9"/>
+    <path d="M -21,386 L -21,410 L -2,410 L -2,386 Z" fill="#000000" stroke="#8FE8FF" stroke-width="1.4"/>
+    <path d="M 2,386 L 2,410 L 21,410 L 21,386 Z" fill="#000000" stroke="#8FE8FF" stroke-width="1.4"/>
+  </g>
+
+  <!-- ================= UNMASKED HEAD (human form) -->
+  <g id="unmasked">
+    <!-- neck + shoulders hint -->
+    <path d="M -10,62 L 10,62 L 10,84 L -10,84 Z" fill="#5E3620"/>
+    <!-- face -->
+    <path d="M 0,2 C 17,2 25,15 25,33 L 25,50 C 25,65 14,74 0,74 C -14,74 -25,65 -25,50
+             L -25,33 C -25,15 -17,2 0,2 Z" fill="#855434"/>
+    <!-- shadow side + cyan rim light -->
+    <path d="M 12,4 C 21,8 25,19 25,33 L 25,50 C 25,63 17,71 6,73 C 16,68 20,60 20,50 L 20,33 C 20,18 17,8 12,4 Z" fill="#5E3620"/>
+    <path d="M -25,34 L -25,50 C -25,62 -18,70 -8,73" fill="none" stroke="#35C6F4" stroke-width="2.5" opacity=".8"/>
+    <!-- short natural hair, textured edge -->
+    <path d="M -26,34 C -29,10 -17,-8 0,-8 C 17,-8 29,10 26,34 L 23,32
+             C 22,16 13,7 0,7 C -13,7 -22,16 -23,32 Z" fill="#0A0E1F"/>
+    <path d="M -26,20 q 4,-6 8,-2 q 4,-6 9,-2 q 4,-7 9,-2 q 5,-6 9,-1 q 5,-5 8,3"
+          fill="none" stroke="#1E33D9" stroke-width="2" opacity=".65"/>
+    <!-- brows -->
+    <path d="M -19,29 L -7,27 L -7,31 L -19,32 Z" fill="#0A0E1F"/>
+    <path d="M 19,29 L 7,27 L 7,31 L 19,32 Z" fill="#0A0E1F"/>
+    <!-- glasses -->
+    <rect x="-21" y="33" width="17" height="12" rx="2.5" fill="#35C6F4" fill-opacity=".16" stroke="#0A0E1F" stroke-width="2.4"/>
+    <rect x="4" y="33" width="17" height="12" rx="2.5" fill="#35C6F4" fill-opacity=".16" stroke="#0A0E1F" stroke-width="2.4"/>
+    <path d="M -4,37 L 4,37" stroke="#0A0E1F" stroke-width="2.4"/>
+    <path d="M -21,36 L -27,34 M 21,36 L 27,34" stroke="#0A0E1F" stroke-width="2.2"/>
+    <path d="M -19,35 L -8,42 M 6,35 L 17,42" stroke="#8FE8FF" stroke-width="1.6" opacity=".55"/>
+    <!-- eyes -->
+    <ellipse cx="-12.5" cy="39" rx="3.4" ry="3.4" fill="#0A0E1F"/>
+    <ellipse cx="12.5" cy="39" rx="3.4" ry="3.4" fill="#0A0E1F"/>
+    <!-- nose -->
+    <path d="M 0,44 L 3,54 L -2,55" fill="none" stroke="#4A2A1A" stroke-width="2"/>
+    <!-- mustache + goatee -->
+    <path d="M -11,58 C -6,55 6,55 11,58 C 6,61 -6,61 -11,58 Z" fill="#0A0E1F"/>
+    <path d="M -9,64 C -9,72 9,72 9,64 C 9,70 5,74 0,74 C -5,74 -9,70 -9,64 Z" fill="#0A0E1F"/>
+    <path d="M -2,62 L 2,62" stroke="#4A2A1A" stroke-width="1.6"/>
+    <!-- ear + stud -->
+    <path d="M -25,36 C -30,36 -31,44 -27,47 L -25,46 Z" fill="#5E3620"/>
+    <circle cx="-27" cy="49" r="2.6" fill="#FFFFFF"/>
+  </g>
+</defs>
+
+<rect width="1440" height="1200" fill="#000000"/>
+
+<text x="40" y="46" fill="#C6F02A" font-size="27" font-weight="bold" letter-spacing="3">死神  CYB3R$H1N1G4M1</text>
+<text x="40" y="70" fill="#35C6F4" font-size="13" letter-spacing="1.5">CHARACTER TURNAROUND · v5 · matches nano-banana canon: open vest, horizontal daishō, fanged grin</text>
+<text x="1400" y="46" fill="#4A5568" font-size="12" text-anchor="end">DESIGN.md §2 / §9</text>
+<path d="M 40,84 L 1400,84" stroke="#4A5568" stroke-width="1"/>
+
+<g transform="translate(250,180)"><use href="#side" transform="scale(1.12)"/></g>
+<text x="250" y="146" fill="#C6F02A" font-size="15" text-anchor="middle" font-weight="bold">SIDE — 側面</text>
+<text x="250" y="164" fill="#4A5568" font-size="11" text-anchor="middle">the only view that becomes a sprite</text>
+
+<g transform="translate(600,180)"><use href="#front" transform="scale(1.12)"/></g>
+<text x="600" y="146" fill="#35C6F4" font-size="15" text-anchor="middle" font-weight="bold">FRONT — 正面</text>
+<text x="600" y="164" fill="#4A5568" font-size="11" text-anchor="middle">mask + horn symmetry</text>
+
+<g transform="translate(930,180)"><use href="#back" transform="scale(1.12)"/></g>
+<text x="930" y="146" fill="#35C6F4" font-size="15" text-anchor="middle" font-weight="bold">BACK — 背面</text>
+<text x="930" y="164" fill="#4A5568" font-size="11" text-anchor="middle">captain's mark on the haori</text>
+
+<!-- TWO FORMS -->
+<path d="M 1080,120 L 1080,660" stroke="#4A5568" stroke-width="1"/>
+<text x="1106" y="148" fill="#C6F02A" font-size="15" font-weight="bold">TWO FORMS — 二相</text>
+
+<g transform="translate(1160,250) scale(1.25)">
+  <ellipse cx="0" cy="32" rx="52" ry="56" fill="url(#ghost)"/>
+  <path d="M 0,-8 C 19,-8 29,7 29,28 L 29,48 C 29,60 21,66 12,68 L -12,68 C -21,66 -29,60 -29,48 L -29,28 C -29,7 -19,-8 0,-8 Z" fill="#1E33D9"/>
+  <path d="M 0,2 C 16,2 23,14 23,32 L 23,50 C 23,64 13,72 0,72 C -13,72 -23,64 -23,50 L -23,32 C -23,14 -16,2 0,2 Z" fill="#E01F26"/>
+  <path d="M -19,30 C -16,16 -8,8 0,8 C 8,8 16,16 19,30" fill="none" stroke="#8F1116" stroke-width="2"/>
+  <path d="M -23,44 C -23,60 -13,70 0,70 C 13,70 23,60 23,44" fill="none" stroke="#8FE8FF" stroke-width="2.5" opacity=".85"/>
+  <ellipse cx="-12" cy="31" rx="13" ry="9" fill="url(#ghostsm)"/>
+  <ellipse cx="12" cy="31" rx="13" ry="9" fill="url(#ghostsm)"/>
+  <path d="M -20,27 L -5,32 L -5,36 L -20,32 Z" fill="#FFFFFF"/>
+  <path d="M 20,27 L 5,32 L 5,36 L 20,32 Z" fill="#FFFFFF"/>
+  <ellipse cx="0" cy="56" rx="20" ry="10" fill="url(#ghostsm)"/>
+  <path d="M -16,50 L 16,50 L 12,62 L -12,62 Z" fill="#0A0E1F"/>
+  <path d="M -16,50 l 5,8 4,-8 M -3,50 l 5,8 4,-8 M 9,50 l 4,7 3,-7" fill="#FFFFFF"/>
+  <path d="M 0,9 L 5,17 L 0,25 L -5,17 Z" fill="#35C6F4"/>
+  <path d="M -20,12 C -32,4 -42,-12 -47,-34 L -39,-37 C -33,-16 -25,-4 -14,3 Z" fill="#E01F26"/>
+  <path d="M 20,12 C 32,4 42,-12 47,-34 L 39,-37 C 33,-16 25,-4 14,3 Z" fill="#E01F26"/>
+</g>
+<text x="1160" y="380" fill="#E01F26" font-size="12" text-anchor="middle" font-weight="bold">MASKED — 死神</text>
+<text x="1160" y="396" fill="#4A5568" font-size="10" text-anchor="middle">combat · all gameplay</text>
+
+<g transform="translate(1320,250) scale(1.25)"><use href="#unmasked"/></g>
+<text x="1320" y="380" fill="#855434" font-size="12" text-anchor="middle" font-weight="bold">UNMASKED — 人</text>
+<text x="1320" y="396" fill="#4A5568" font-size="10" text-anchor="middle">shrines · cutscenes · title</text>
+
+<g fill="#8FE8FF" font-size="11.5">
+  <text x="1106" y="428">The mask is worn, not grown. Under it</text>
+  <text x="1106" y="448">is a man, and the game should show him:</text>
+  <text x="1106" y="472">· at Snapshot shrines, resting, mask off</text>
+  <text x="1106" y="492">· in the pause menu portrait</text>
+  <text x="1106" y="512">· on the title screen, mask in hand</text>
+  <text x="1106" y="532">· final boss phase 3 — it wears his face</text>
+  <text x="1106" y="560" fill="#C6F02A">Deep brown skin, short natural hair,</text>
+  <text x="1106" y="580" fill="#C6F02A">glasses, goatee, single ear stud.</text>
+  <text x="1106" y="604">Skin now shows in gameplay too: sleeves</text>
+  <text x="1106" y="624">are pushed to the elbow, so bare forearms</text>
+  <text x="1106" y="644">and hands read on every sprite.</text>
+  <text x="1106" y="668" fill="#C6F02A">SotN rule: the haori is Alucard's cape —</text>
+  <text x="1106" y="684" fill="#C6F02A">broad, and it does half the acting.</text>
+</g>
+
+<path d="M 40,690 L 1400,690" stroke="#4A5568" stroke-width="1"/>
+
+<text x="40" y="722" fill="#C6F02A" font-size="15" font-weight="bold">SILHOUETTE TEST</text>
+<text x="212" y="722" fill="#4A5568" font-size="11">— horns, ponytail, ragged hem, sheathed daishō. Four reads, no face needed.</text>
+<rect x="40" y="738" width="580" height="330" fill="#4A5568" rx="3"/>
+<g transform="translate(150,764)" style="filter:brightness(0)"><use href="#side" transform="scale(0.66)"/></g>
+<g transform="translate(340,764)" style="filter:brightness(0)"><use href="#front" transform="scale(0.66)"/></g>
+<g transform="translate(520,764)" style="filter:brightness(0)"><use href="#back" transform="scale(0.66)"/></g>
+
+<text x="660" y="722" fill="#C6F02A" font-size="15" font-weight="bold">SPRITE SCALE — SotN parity</text>
+<rect x="660" y="740" width="192" height="192" fill="none" stroke="#4A5568" stroke-width="1" stroke-dasharray="4 4"/>
+<g transform="translate(752,756) scale(0.42)"><use href="#side"/></g>
+<text x="660" y="952" fill="#4A5568" font-size="11">96 × 96 px canvas, figure ~72px — shown 2×</text>
+<text x="660" y="972" fill="#8FE8FF" font-size="11">Alucard-height. Cloth and hair carry the</text>
+<text x="660" y="988" fill="#8FE8FF" font-size="11">motion: haori + ponytail are half the mass.</text>
+<text x="660" y="1008" fill="#8FE8FF" font-size="11">Mask + white haori remain the two anchors.</text>
+
+<text x="900" y="722" fill="#C6F02A" font-size="15" font-weight="bold">PALETTE — 15</text>
+<g font-size="10" fill="#4A5568">
+  <rect x="900" y="740" width="42" height="42" fill="#000000" stroke="#4A5568"/><text x="948" y="758" fill="#8FE8FF">VOID</text><text x="948" y="772">#000000</text>
+  <rect x="900" y="790" width="42" height="42" fill="#0A0E1F" stroke="#4A5568"/><text x="948" y="808" fill="#8FE8FF">INK</text><text x="948" y="822">#0A0E1F</text>
+  <rect x="900" y="840" width="42" height="42" fill="#1E33D9"/><text x="948" y="858" fill="#8FE8FF">BLUE_DEEP</text><text x="948" y="872">#1E33D9</text>
+  <rect x="900" y="890" width="42" height="42" fill="#2B6FE8"/><text x="948" y="908" fill="#8FE8FF">BLUE_MID</text><text x="948" y="922">#2B6FE8</text>
+  <rect x="900" y="940" width="42" height="42" fill="#35C6F4"/><text x="948" y="958" fill="#8FE8FF">CYAN</text><text x="948" y="972">#35C6F4</text>
+
+  <rect x="1070" y="740" width="42" height="42" fill="#8FE8FF"/><text x="1118" y="758" fill="#8FE8FF">CYAN_PALE</text><text x="1118" y="772">#8FE8FF</text>
+  <rect x="1070" y="790" width="42" height="42" fill="#8F1116"/><text x="1118" y="808" fill="#8FE8FF">RED_DARK</text><text x="1118" y="822">#8F1116</text>
+  <rect x="1070" y="840" width="42" height="42" fill="#E01F26"/><text x="1118" y="858" fill="#8FE8FF">RED</text><text x="1118" y="872">#E01F26</text>
+  <rect x="1070" y="890" width="42" height="42" fill="#C6F02A"/><text x="1118" y="908" fill="#8FE8FF">GREEN_ACID</text><text x="1118" y="922">#C6F02A</text>
+  <rect x="1070" y="940" width="42" height="42" fill="#6B8A0F"/><text x="1118" y="958" fill="#8FE8FF">GREEN_DEEP</text><text x="1118" y="972">#6B8A0F</text>
+
+  <rect x="1240" y="740" width="42" height="42" fill="#FFFFFF"/><text x="1288" y="758" fill="#8FE8FF">WHITE</text><text x="1288" y="772">#FFFFFF</text>
+  <rect x="1240" y="790" width="42" height="42" fill="#4A5568"/><text x="1288" y="808" fill="#8FE8FF">GREY</text><text x="1288" y="822">#4A5568</text>
+  <rect x="1240" y="840" width="42" height="42" fill="#4A2A1A" stroke="#4A5568" stroke-width=".5"/><text x="1288" y="858" fill="#C6F02A">SKIN_SHADOW</text><text x="1288" y="872">#4A2A1A</text>
+  <rect x="1240" y="890" width="42" height="42" fill="#855434"/><text x="1288" y="908" fill="#C6F02A">SKIN_BASE</text><text x="1288" y="922">#855434</text>
+  <rect x="1240" y="940" width="42" height="42" fill="#B07A4A"/><text x="1288" y="958" fill="#C6F02A">SKIN_LIGHT</text><text x="1288" y="972">#B07A4A</text>
+</g>
+<text x="900" y="1014" fill="#4A5568" font-size="11">12 → 15. Three skin tones added; a warm ramp in a cold palette, so it reads as</text>
+<text x="900" y="1030" fill="#4A5568" font-size="11">living against all that neon. Use a CYAN rim light on skin to tie it back in.</text>
+<text x="900" y="1046" fill="#4A5568" font-size="11">#5E3620 is a mid-shadow mixed from the ramp, not a 16th color.</text>
+
+<path d="M 40,1160 L 1400,1160" stroke="#4A5568" stroke-width="1"/>
+<text x="40" y="1182" fill="#4A5568" font-size="11">Original design derived from the Cyb3r$h1n1g4m1 persona motifs — mask, horns, hair, 死神. Not a reproduction of the HACKERverse/KIKRR logo artwork.</text>
+</svg>

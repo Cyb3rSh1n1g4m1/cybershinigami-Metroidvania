@@ -1,0 +1,11 @@
+[
+ {
+  "out": "iai_stance3.png",
+  "model": "gemini-3-pro-image",
+  "aspect": "1:1",
+  "refs": [
+   "iai_stance2.png"
+  ],
+  "prompt": "Recreate the attached pixel-art character EXACTLY \u2014 same character, same squat game proportions, same low battojutsu crouch, same outfit, same colours, same style, same pure background \u2014 with exactly TWO corrections and NOTHING else changed:\n\nCORRECTION 1 \u2014 THE HORNS. In the attached image the two red horns curve UPWARD and forward. Redraw them SWEPT BACKWARD from the temples, hugging low over the hair like a comet's tail trailing behind the head. They must point BACK, away from the direction he faces. No upward curl, no forward curve.\n\nCORRECTION 2 \u2014 THE LEFT HAND. In the attached image his left arm hangs at his side. Redraw the LEFT hand gripping the katana's SAYA (the scabbard) at his LEFT HIP, tilting it forward \u2014 the classic iai draw grip. The right hand stays on the hilt exactly as drawn. The blade stays fully sheathed.\n\nDo NOT change the pose's crouch, the proportions, the mask, the ponytail, the haori, the palette, or the rendering. This is a copy job with two fixes."
+ }
+]

@@ -1,0 +1,12 @@
+[sheet_locomotion.png] HTTP 503 on gemini-3-pro-image: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+
+[sheet_locomotion.png] retrying on gemini-2.5-flash-image
+saved D:\Projects\Cybershinigami\art\reference\sheet_locomotion.png
+saved D:\Projects\Cybershinigami\art\reference\sheet_combat.png
+saved D:\Projects\Cybershinigami\art\reference\sheet_traversal.png

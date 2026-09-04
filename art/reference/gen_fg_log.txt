@@ -1,0 +1,4 @@
+saved D:\Projects\Cybershinigami\art\reference\tileset_v2.png
+[props_fg.png] 503 on gemini-3-pro-image, retry 1/3 in 20s
+[props_fg.png] 503 on gemini-3-pro-image, retry 2/3 in 40s
+saved D:\Projects\Cybershinigami\art\reference\props_fg.png

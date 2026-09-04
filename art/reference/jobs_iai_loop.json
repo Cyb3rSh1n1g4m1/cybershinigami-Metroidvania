@@ -1,0 +1,11 @@
+[
+ {
+  "out": "iai_loop.png",
+  "model": "gemini-3-pro-image",
+  "aspect": "16:9",
+  "refs": [
+   "iai_stance3.png"
+  ],
+  "prompt": "LAYOUT IS THE MOST IMPORTANT REQUIREMENT: FOUR frames in ONE straight horizontal row, evenly spaced, WIDE EMPTY GAPS between them, all four the SAME SIZE, feet planted on the SAME invisible ground line, on a plain background. This is a sprite sheet, not an illustration.\n\nRecreate the attached character EXACTLY \u2014 same design, same proportions, same colours, same pixel-art rendering \u2014 four times, as a subtle BREATHING TENSION loop of his battojutsu coil. The pose stays the same in all four; only small living details move, a few pixels at most:\nFRAME 1: exactly the attached pose.\nFRAME 2: he sinks a hair lower, shoulders tightening, grip firming on the saya.\nFRAME 3: the lowest point of the breath \u2014 ponytail and the haori hem sway slightly forward.\nFRAME 4: easing back up toward frame 1, hem settling back.\n\nHe never stands, never draws the blade, never moves his feet. The differences between frames are SMALL \u2014 chest rise, hem sway, tension. A viewer flipping through them should see one held breath, not four poses."
+ }
+]

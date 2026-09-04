@@ -1,0 +1,9 @@
+[
+ {
+  "out": "sheet_mega.png",
+  "model": "gemini-3-pro-image",
+  "aspect": "16:9",
+  "refs": ["sheet_mega.png"],
+  "prompt": "Recreate the attached sprite sheet EXACTLY — same 6x5 grid, same poses, same character, same colours, same pixel-art style, same grey cell backgrounds — with exactly ONE correction and NOTHING else changed:\n\nCORRECTION — ROW 4, CELL 6 (fourth row from the top, last cell on the right: the standing pose holding the katana low in front of him). In the attached image this one figure is MISSING the large white sleeveless haori coat that every other cell shows. Redraw this ONE cell with the SAME big white sleeveless haori draped over his shoulders, hanging open past his knees, exactly as in the neighbouring cells. He never takes it off.\n\nDo NOT change any other cell. Do NOT change the grid, layout, proportions, palette, outfit details, the red hannya mask, or the blue-to-cyan banded ponytail. This is a copy job with one fix, not a new drawing."
+ }
+]

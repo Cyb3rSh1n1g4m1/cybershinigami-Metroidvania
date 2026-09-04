@@ -1,0 +1,11 @@
+[
+ {
+  "out": "iai_enter.png",
+  "model": "gemini-3-pro-image",
+  "aspect": "16:9",
+  "refs": [
+   "iai_stance3.png"
+  ],
+  "prompt": "LAYOUT IS THE MOST IMPORTANT REQUIREMENT: THREE frames in ONE straight horizontal row, evenly spaced, WIDE EMPTY GAPS, all three the SAME SIZE, feet on the SAME invisible ground line, plain background. A sprite sheet, not an illustration.\n\nThe attached image shows a pixel-art character in a low battojutsu coil. Draw the TRANSITION INTO that pose \u2014 the same character, same design, same proportions, same rendering, settling from standing into the coil:\nFRAME 1: standing tall and relaxed, side profile facing right, just beginning \u2014 his head starts to lower, his LEFT hand starts crossing toward the katana's saya at his left hip.\nFRAME 2: halfway down \u2014 knees bending, torso folding forward, left hand GRIPPING the saya now, right hand crossing over to reach the hilt.\nFRAME 3: the attached coil EXACTLY \u2014 reproduce it as the final frame.\n\nThe blade stays FULLY SHEATHED in all three frames. The white haori and ponytail follow the drop with slight lag. Nothing else changes between frames \u2014 this is one continuous motion of one character sinking into stance."
+ }
+]

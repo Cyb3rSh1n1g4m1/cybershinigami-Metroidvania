@@ -1,0 +1,17 @@
+# Godot
+game/.godot/
+game/.claude/
+# Python
+__pycache__/
+*.pyc
+# Raw Suno source audio: regenerable from Suno, and over GitHub's file limits.
+# The mixed tracks the game uses live in game/audio/music/.
+art/audio/stems/
+art/audio/suno_cuts/
+art/audio/suno_instrumental.wav
+# Generated audition pages (rebuild: make_soundboard.py / make_sampler.py)
+art/audio/soundboard.html
+art/audio/sampler/
+# OS
+Thumbs.db
+.DS_Store

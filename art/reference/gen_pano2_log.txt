@@ -1,0 +1,11 @@
+saved D:\Projects\Cybershinigami\art\reference\bg_far_a.png
+saved D:\Projects\Cybershinigami\art\reference\bg_far_b.png
+[bg_far_c.png] 503 on gemini-3-pro-image, retry 1/3 in 20s
+saved D:\Projects\Cybershinigami\art\reference\bg_far_c.png
+[bg_mid_a.png] 503 on gemini-3-pro-image, retry 1/3 in 20s
+[bg_mid_a.png] 503 on gemini-3-pro-image, retry 2/3 in 40s
+saved D:\Projects\Cybershinigami\art\reference\bg_mid_a.png
+[bg_mid_b.png] 503 on gemini-3-pro-image, retry 1/3 in 20s
+saved D:\Projects\Cybershinigami\art\reference\bg_mid_b.png
+[bg_mid_c.png] 503 on gemini-3-pro-image, retry 1/3 in 20s
+saved D:\Projects\Cybershinigami\art\reference\bg_mid_c.png

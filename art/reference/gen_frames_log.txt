@@ -1,0 +1,4 @@
+saved D:\Projects\Cybershinigami\art\reference\sheet_attack8.png
+[sheet_air8.png] 503 on gemini-3-pro-image, retry 1/3 in 20s
+saved D:\Projects\Cybershinigami\art\reference\sheet_air8.png
+saved D:\Projects\Cybershinigami\art\reference\sheet_idle8.png
