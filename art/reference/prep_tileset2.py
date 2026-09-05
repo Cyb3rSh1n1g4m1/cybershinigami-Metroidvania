@@ -15,7 +15,7 @@ from collections import deque
 from PIL import Image
 import pathlib
 
-OUT = pathlib.Path(r"D:\Projects\Cybershinigami\game\art\tileset.png")
+OUT = pathlib.Path(__file__).parents[2] / "game" / "art" / "tileset.png"
 OUT.parent.mkdir(parents=True, exist_ok=True)
 TILE = 16
 

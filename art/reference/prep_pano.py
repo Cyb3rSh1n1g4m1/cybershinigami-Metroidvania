@@ -12,7 +12,7 @@ from collections import deque
 from PIL import Image
 import pathlib
 
-OUT = pathlib.Path(r"D:\Projects\Cybershinigami\game\art\bg")
+OUT = pathlib.Path(__file__).parents[2] / "game" / "art" / "bg"
 OUT.mkdir(parents=True, exist_ok=True)
 VIEW_H = 360
 
