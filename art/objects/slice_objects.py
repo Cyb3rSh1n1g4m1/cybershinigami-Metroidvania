@@ -14,10 +14,13 @@ GAME = pathlib.Path("../../game/art/objects")
 GAME.mkdir(parents=True, exist_ok=True)
 CELL = 96
 
-JOBS = [("upgrade_modules", 6), ("upgrade_pedestal", 4), ("shrine_v2", 4)]
+# (reference sheet, shipped name, cells) — the shrine sheet ships as shrine.png
+JOBS = [("upgrade_modules", "upgrade_modules", 6),
+        ("upgrade_pedestal", "upgrade_pedestal", 4),
+        ("shrine_v2", "shrine", 4)]
 
 
-def slice_row(name, want):
+def slice_row(name, out, want):
     img = Image.open(REF / f"{name}.png").convert("RGBA")
     W, H = img.size
     px = img.load()
@@ -81,10 +84,10 @@ def slice_row(name, want):
         art = art.resize((nw, nh), Image.NEAREST)
         sheet.paste(art, (i * CELL + (CELL - nw) // 2, (CELL - nh) // 2))
 
-    sheet.save(GAME / f"{name}.png")
-    sheet.resize((sheet.width * 3, CELL * 3), Image.NEAREST).save(f"{name}_3x.png")
-    print(f"ok: {name}.png  {want} cells x {CELL}px")
+    sheet.save(GAME / f"{out}.png")
+    sheet.resize((sheet.width * 3, CELL * 3), Image.NEAREST).save(f"{out}_3x.png")
+    print(f"ok: {out}.png  {want} cells x {CELL}px")
 
 
-for name, want in JOBS:
-    slice_row(name, want)
+for name, out, want in JOBS:
+    slice_row(name, out, want)

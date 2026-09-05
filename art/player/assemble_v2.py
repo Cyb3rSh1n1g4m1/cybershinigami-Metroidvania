@@ -8,7 +8,7 @@ the body-size drift that per-sheet scaling could never solve.
   mega 00-05 idle | 06-11 run | 12-17 jump cycle | 18-23 katana attack
   mega 24 crouch, 25 dash, 26 hurt, 27 fall-defeated, 28 prone, 29 pray
 
-SPECIALTY moves (attack_up/down, heavy, air_attack, parry, spin, cast, turn)
+SPECIALTY moves (attack_up/down, heavy, air_attack, parry, cast, turn)
 have no mega cell yet and stay on the older themed sheets. Their bodies are
 normalized to the same 76px figure height; their heads run ~16px vs mega's 19px
 — a known, deliberate residual until a second mega-style sheet covers them.
@@ -50,7 +50,6 @@ MAP = {
     "attack_down": [(SH, C % i) for i in (0, 5, 3)],
     "air_attack": [(SH, C % 8)],
     "parry":      [(SH, C % 9)],
-    "spin":       [(SH, C % i) for i in (10, 10)],
     "cast":       [(SH, C % 11)],
     "turn":       [(SH, L % i) for i in (10, 11, 12)],      # alert / turn / walk
 }

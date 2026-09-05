@@ -27,12 +27,14 @@ SLATE = (74, 85, 104, 255)
 SLATE_L = (118, 130, 150, 255)
 
 
-def strip(name, w, h, n, draw):
+def strip(name, w, h, n, draw, save=True):
     im = Image.new("RGBA", (w * n, h), (0, 0, 0, 0))
     for f in range(n):
         cell = Image.new("RGBA", (w, h), (0, 0, 0, 0))
         draw(cell.load(), w, h, f, n)
         im.paste(cell, (f * w, 0))
+    if not save:                     # retired: still drawn so the shared
+        return                       # rng stream (and later strips) stay identical
     im.save(OUT / f"{name}.png")
     print(f"ok: {name}.png  {n}f {w}x{h}")
 
@@ -134,7 +136,7 @@ def ring(px, w, h, f, n):
 
 
 strip("swing_arc", 48, 48, 3, swing_arc)
-strip("wave_slash", 96, 48, 4, wave)
-strip("slam_ring", 96, 48, 4, slam)
+strip("wave_slash", 96, 48, 4, wave, save=False)   # retired: crescent.png replaced it
+strip("slam_ring", 96, 48, 4, slam, save=False)    # retired: green ring cut from CORE DUMP
 strip("dust_cloud", 96, 48, 5, dust)
 strip("dj_ring", 64, 64, 4, ring)
